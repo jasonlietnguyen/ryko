@@ -1,0 +1,194 @@
+body{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555;
+    background-image: url(https://hd.unsplash.com/reserve/tdedkQnQGCgIhk9eoEkP_DSC_0983.JPG);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	overflow-x: hidden; 
+}
+
+/*Fonts*/
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+/*Input*/
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #555;
+	font-size: 1.1em;
+	background-color: #fcfcfc;
+}
+textarea{
+	border: 2px solid #555;
+	padding: 10px;
+	height: 250px;
+	font-size: 1.1em;
+	background-color: #fcfcfc;
+}
+
+/*Hr Line*/
+hr{
+	border: 1px solid #999;
+}
+
+/*Padding*/
+.padding{
+	padding-top: 120px;
+}
+
+/*Triangle*/
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 1100px solid transparent;
+	border-right: 400px solid transparent;
+	border-top: 400px solid #555;
+	opacity: .2;
+	margin: auto;
+	position: absolute;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid #555;
+	opacity: .9;
+	margin: auto;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #555;
+	opacity: .9;
+	margin: auto;
+}
+
+/*Landing*/
+.landing .nav{
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+img{
+	display: block;
+    margin: auto;
+    padding: 10px 0; 
+}
+
+/*Ryco*/
+#ryco{
+	font-family: 'Yesteryear', cursive;
+	font-size: 6vw;
+}
+
+/*Button*/
+.btn{
+	border: 2px solid #555;
+	padding: 10px 20px;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #555;
+	text-align: center;
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin: auto 10px;
+}
+.discover{
+	margin: 300px 10px 200px 10px;
+}
+.btn:hover{
+	background-color: #444;
+	color: white;
+	font-weight: 200;
+	opacity: .7;
+}
+
+/*Life*/
+.life{
+	background-color: white;
+	text-align: center;
+}
+.life h1{
+	font-weight: 200;
+}
+
+/*Service*/
+.service{
+	background-color: #eee;
+}
+.service h5{
+	margin-bottom: 0;
+	letter-spacing: 1px;
+}
+.service i{
+	color: #888;
+}
+.service h1{
+	font-weight: 200;
+}
+
+/*Sign Up*/
+.sign-up{
+	background-image: url(https://hd.unsplash.com/photo-1445820444241-15838377587b);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+/*Prices*/
+.prices{
+	background-color: white;
+}
+.prices h1{
+	font-weight: 200;
+}
+.prices hr{
+	border: 1px solid #ccc;
+}
+
+
+/*Input*/
+.input{
+	background-color: #fcfcfc;
+}
+.input h1{
+	font-weight: 200;
+}
+
+
+/*Footer*/
+.footer{
+	background-image: url(https://hd.unsplash.com/photo-1470016342826-876ea880d0be);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.footer .padding{
+	padding-top: 300px;
+}
+#highlight{
+	background-color: rgba(85, 85, 85, .5);
+	display: inline;
+	color: white;
+	padding: 5px 30px;
+}
+
+/*ScrollBar*/
+::-webkit-scrollbar {
+    width: 13px;  
+}
+::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
