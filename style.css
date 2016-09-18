@@ -43,16 +43,6 @@ hr{
 }
 
 /*Triangle*/
-.triangle{
-	width: 0;
-	height: 0;
-	border-left: 1100px solid transparent;
-	border-right: 400px solid transparent;
-	border-top: 400px solid #555;
-	opacity: .2;
-	margin: auto;
-	position: absolute;
-}
 .triangle-up {
 	width: 0;
 	height: 0;
