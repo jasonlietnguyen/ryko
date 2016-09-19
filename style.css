@@ -68,7 +68,7 @@ hr{
 
 /*Landing*/
 .landing{
-	 background-image: url(https://hd.unsplash.com/reserve/tdedkQnQGCgIhk9eoEkP_DSC_0983.JPG);
+	background-image: url(https://hd.unsplash.com/reserve/tdedkQnQGCgIhk9eoEkP_DSC_0983.JPG);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position-y: center;
@@ -106,7 +106,6 @@ img{
 .btn:hover{
 	background-color: #444;
 	color: white;
-	font-weight: 200;
 	opacity: .7;
 }
 
