@@ -4,6 +4,9 @@ body{
     color: #555;
 	overflow-x: hidden; 
 }
+*{
+	outline: 1px solid red;
+}
 
 /*Fonts*/
 h1,h2,h3,h4,h5,h6,p{
@@ -86,7 +89,6 @@ img{
 /*Ryco*/
 #ryco{
 	font-family: 'Yesteryear', cursive;
-	font-size: 6vw;
 }
 
 /*Button*/
@@ -190,3 +192,4 @@ img{
 ::-webkit-scrollbar-thumb:hover {
     background: #999;
 }
+
