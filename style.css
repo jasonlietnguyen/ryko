@@ -2,10 +2,6 @@ body{
 	font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #555;
-    background-image: url(https://hd.unsplash.com/reserve/tdedkQnQGCgIhk9eoEkP_DSC_0983.JPG);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
 	overflow-x: hidden; 
 }
 
@@ -21,14 +17,12 @@ input{
 	padding: 10px;
 	margin-bottom: 10px;
 	border: 2px solid #555;
-	font-size: 1.1em;
 	background-color: #fcfcfc;
 }
 textarea{
 	border: 2px solid #555;
 	padding: 10px;
 	height: 250px;
-	font-size: 1.1em;
 	background-color: #fcfcfc;
 }
 
@@ -73,8 +67,13 @@ hr{
 }
 
 /*Landing*/
+.landing{
+	 background-image: url(https://hd.unsplash.com/reserve/tdedkQnQGCgIhk9eoEkP_DSC_0983.JPG);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-y: center;
+}
 .landing .nav{
-	font-size: 1.3em;
 	letter-spacing: 2px;
 	cursor: pointer;
 }
@@ -94,8 +93,7 @@ img{
 .btn{
 	border: 2px solid #555;
 	padding: 10px 20px;
-	font-size: 1.3em;
-	font-weight: 400;
+	font-weight: 300;
 	color: #555;
 	text-align: center;
 	letter-spacing: 2px;
@@ -168,6 +166,7 @@ img{
 /*Footer*/
 .footer{
 	background-image: url(https://hd.unsplash.com/photo-1470016342826-876ea880d0be);
+	background-position-x: center;
 	background-attachment: fixed;
 	background-size: cover;
 }
