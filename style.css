@@ -86,6 +86,7 @@ img{
 /*Ryco*/
 #ryco{
 	font-family: 'Yesteryear', cursive;
+	font-size: 4em;
 }
 
 /*Button*/
@@ -131,6 +132,9 @@ img{
 .service h1{
 	font-weight: 200;
 }
+.service .large-4{
+	margin-bottom: 25px;
+}
 
 /*Sign Up*/
 .sign-up{
@@ -143,6 +147,7 @@ img{
 /*Prices*/
 .prices{
 	background-color: white;
+	font-weight: 200;
 }
 .prices h1{
 	font-weight: 200;
